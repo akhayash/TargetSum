@@ -1,0 +1,12 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": ["eslint:recommended", "prettier"],
+	"parseroptions": {
+		"ecmaversion": 12,
+		"sourcetype": "module"
+	},
+	"rules": {}
+}
