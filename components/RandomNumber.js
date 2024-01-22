@@ -11,7 +11,9 @@ class RandomNumber extends React.Component {
     };
 
     handlePress = () => {
-        console.log(this.props.number);
+        if (this.props.isDisabled) {
+            return;
+        }
         this.props.onPress(this.props.id);
     };
 
